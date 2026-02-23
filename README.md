@@ -10,8 +10,6 @@ A Employee Management application implements **GraphQL**
 
 2. **Navigate to the folder**
 
-3. **Rename .env_public to .env and add missing API Keys e.g. MongoDb Atlas URI and Cloudinary**
-
 3. **Start the application**
 ```bash
 npm run start
@@ -20,4 +18,6 @@ npm run start
 
 **Troubleshooting**  
 - If there are any errors, they are most likely related to the database or cloudinary connection.  
+- If the app cannot connect to the provided MongoDB Atlas, replace the connection string in `.env` with your own MongoDB Atlas URI.  
+- If the app cannot connect to the provided cloudinary account, replace the CLOUDINARY_URL in `.env` with your own.  
 - Ensure that a database named `comp3133_101490785_Assigment1` exists in your MongoDB cluster.
