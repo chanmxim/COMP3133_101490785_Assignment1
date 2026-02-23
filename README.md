@@ -16,6 +16,12 @@ npm run start
 ```
 ---
 
+## Existing user for testing
+
+username: "max"
+email: "max@gbc.ca"
+password: "password"
+
 **Troubleshooting**  
 - If there are any errors, they are most likely related to the database or cloudinary connection.  
 - If the app cannot connect to the provided MongoDB Atlas, replace the connection string in `.env` with your own MongoDB Atlas URI.  
